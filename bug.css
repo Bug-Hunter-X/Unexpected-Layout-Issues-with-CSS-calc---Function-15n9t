@@ -1,0 +1,1 @@
+The CSS property `calc()` is used incorrectly with percentages and other units. This can lead to unexpected results or errors in the browser's rendering engine.  For example, attempting to calculate `width: calc(50% - 10px)` within a container that has not yet been rendered may lead to incorrect sizing.
